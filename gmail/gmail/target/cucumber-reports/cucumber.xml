@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="93.378">
+<testcase classname="Compose and Send Email" name="Compose button opens up a popup" time="92.898">
+<system-out><![CDATA[Given User is on gmail login page...........................................passed
+When User enters email address "TestUser.Sel123@gmail.com" and press Enter..passed
+And User enter password "TestUserSel@123" and press Enter...................passed
+Then User is navigated to Inbox page........................................passed
+Given Compose button is visible.............................................passed
+When User clicks on Compose button..........................................passed
+Then Compose popup is displayed.............................................passed
+When User enter To email ID as "TestUser.Sel123@gmail.com"..................passed
+And User enters Subject as "Incubyte".......................................passed
+And User enters email body as "Automation QA test for Incubyte".............passed
+And User clicks on Send.....................................................passed
+Then Email is Send successfully.............................................passed
+]]></system-out>
+</testcase>
+</testsuite>

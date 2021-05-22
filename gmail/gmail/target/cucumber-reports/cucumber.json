@@ -1,0 +1,229 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3016938400,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User is on gmail login page",
+            "match": {
+              "location": "stepDefinition.Steps.user_is_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3516615500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User enters email address \"TestUser.Sel123@gmail.com\" and press Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUser.Sel123@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enters_email_address(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2015613400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User enter password \"TestUserSel@123\" and press Enter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUserSel@123\"",
+                  "offset": 20
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enter_password(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21570354100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is navigated to Inbox page",
+            "match": {
+              "location": "stepDefinition.Steps.user_is_navigated_to_inbox()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2021-05-22T18:10:48.393Z",
+        "before": [
+          {
+            "result": {
+              "duration": 40594514400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.BeforeSteps.setup()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Compose button opens up a popup",
+        "description": "",
+        "id": "compose-and-send-email;compose-button-opens-up-a-popup",
+        "after": [
+          {
+            "result": {
+              "duration": 4787204500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinition.AfterSteps.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 188498600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Compose button is visible",
+            "match": {
+              "location": "stepDefinition.Steps.compose_button_is_visible()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 10062109300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on Compose button",
+            "match": {
+              "location": "stepDefinition.Steps.user_clicks_on_compose_button()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2157234300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Compose popup is displayed",
+            "match": {
+              "location": "stepDefinition.Steps.compose_popup_is_displayed()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1894937200,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enter To email ID as \"TestUser.Sel123@gmail.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"TestUser.Sel123@gmail.com\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enter_to_email_id_as(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 336102100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters Subject as \"Incubyte\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Incubyte\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enters_subject_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 701124700,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters email body as \"Automation QA test for Incubyte\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Automation QA test for Incubyte\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefinition.Steps.user_enters_email_body_as(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 373001200,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User clicks on Send",
+            "match": {
+              "location": "stepDefinition.Steps.user_clicks_on_send()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1329447700,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Email is Send successfully",
+            "match": {
+              "location": "stepDefinition.Steps.email_is_send_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Compose and Send Email",
+    "description": "",
+    "id": "compose-and-send-email",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/AppFeatures/ComposeAndSendEmail.feature",
+    "tags": []
+  }
+]
